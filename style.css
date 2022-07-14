@@ -1,0 +1,69 @@
+.lowerSection{
+    margin: 5%;
+    margin-top: 0 !important;
+}
+.titleLowerSection{
+    padding: 10%;
+    padding-top: 14% !important;
+}
+.btn{
+    width: 100% !important;
+    border-radius: 100px;
+}
+.card{
+    border-radius: 30px;
+}
+.page-header{
+    overflow: auto !important;
+}
+.card-img-top{
+    border-radius: 30px 30px 0 0;
+    border-top: 5px solid rgba(128, 0, 128, 0.801);
+}
+#mainBtnSignIn{
+    width: 50% !important;
+    margin: 10%;
+    border-top: 5px solid rgba(128, 0, 128, 0.712);
+    transition: 1s;
+}
+#mainBtnSignIn:hover{
+    border-top: 5px solid rgba(89, 0, 255, 0.712);
+    transition: 1s;
+}
+.styleTile{
+    font-weight: bold;
+    font-family: cursive;
+  
+}.btn-close{
+    border-style: none !important;
+    border-radius: 100px;
+    background-color: purple;
+    color:white;
+    padding-left:3%;
+    padding-right:3%;
+}
+.list-group-item{
+    border-radius: 10px !important;
+    margin: 0.1% !important;
+    color: white;
+    padding: 0;
+}
+.navbar-translate{
+    background-color: rgba(128, 0, 128, 0) !important;
+}
+.btnFeedBack{
+    background-color: rgba(255, 255, 255, 0) !important;
+    border-style: none !important;
+    color: white !important;
+    float: right !important;
+}
+@media (max-width: 768px) { 
+    #loginToAdmin{
+        display: none !important;
+    }
+}
+@media (min-width: 768px) { 
+    #userInterFaceLogin{
+        display: none !important;
+    }
+}
